@@ -775,6 +775,9 @@ body #footer-container {
   #body-container .content pre {
     overflow: scroll;
   }
+  #body-container .content .hentry {
+    margin-bottom: 10px;
+  }
   #body-container #primary {
     width: 100%;
     margin: 0;
