@@ -58,7 +58,7 @@ get_header(); // Loads the header.php template. ?>
 			                <a href="javascript:void(0);" target="_blank" class="wechat">
 			                    <span class="icon"></span>微信
 			                    <div class="wechatqr">
-			                        <span class="qrcode" style="background-image:url(http://www.liantu.com/api.php?bg=ffffff&fg=000000&gc=000000&el=L&text=<?php echo urldecode(the_permalink());?>.png;)"></span>
+			                    	<img src="http://www.liantu.com/api.php?bg=ffffff&fg=000000&gc=000000&el=L&text=<?php echo urldecode(the_permalink());?>" alt="分享到微信" class="qrcode">
 			                    </div>
 			                </a>
 			            </div>

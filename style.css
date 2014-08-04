@@ -661,6 +661,12 @@ a:active {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
 }
+#share .wechatqr {
+  padding: 0;
+}
+#share .qrcode {
+  background: transparent;
+}
 #container .dd_post_content .dd_post #share a {
   display: inline-block;
   width: auto;
