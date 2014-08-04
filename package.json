@@ -1,0 +1,12 @@
+{
+  "name": "geekmobile",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-concat": "~0.1.1",
+    "grunt-contrib-imagemin": "^0.7.1",
+    "grunt-contrib-less": "~0.11.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-css": ">0.0.0"
+  }
+}
