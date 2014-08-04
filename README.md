@@ -1,5 +1,6 @@
 <h2>新的Wordpress主题——“晓风”</h2>
 <img src="https://raw.githubusercontent.com/liyaodong/hybrid-dongdong/master/images/banner.jpg">
+
 很久之前就想着要给自己写一个主题了，但屡屡没有坚持写下去，最近暑假闲了下来，静下心来总算写了一个还算满意的主题，开源出来大家共同改进！
 <h3>功能概览</h3>
 >1. 支持响应式，兼容PC及移动端平台
