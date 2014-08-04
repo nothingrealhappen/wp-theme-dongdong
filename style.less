@@ -742,8 +742,10 @@ body #footer-container {overflow: visible;} //解决wechat qrcode 被遮住的�
 			text-align: center;
 		}
 	}
+	//屏蔽移动端微信分享
+	#container .dd_post_content .dd_post #share a.wechat { display: none; }
 	.mobile_backtotop {
 		display: block;
 	}
 	#back-top,#back-top-text {display: none;visibility: hidden;opacity: 0;}
-}
+} //移动端适配结束
