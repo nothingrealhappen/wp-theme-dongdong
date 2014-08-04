@@ -20,8 +20,8 @@
 	<?php elseif ( is_singular( 'post' ) ) : ?>
 
 		<div class="navigation-links">
-			<?php previous_post_link( '%link', '<span class="previous">' . __( '&laquo; 上一页', 'hybrid' ) . '</span>' ); ?>
-			<?php next_post_link( '%link', '<span class="next">' . __( '下一页 &raquo;', 'hybrid' ) . '</span>' ); ?>
+			<?php previous_post_link( '%link', '<span class="previous">' . __( '&laquo; 上一篇', 'hybrid' ) . '</span>' ); ?>
+			<?php next_post_link( '%link', '<span class="next">' . __( '下一篇 &raquo;', 'hybrid' ) . '</span>' ); ?>
 		</div><!-- .navigation-links -->
 
 	<?php elseif ( !is_singular() && function_exists( 'wp_pagenavi' ) ) : wp_pagenavi(); ?>
