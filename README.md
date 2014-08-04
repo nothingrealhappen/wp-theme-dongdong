@@ -23,10 +23,11 @@
 7. Node（主要是npm，用来安装Grunt）
 
 <h3>安装过程</h3>
->1. 到Github下载最新版，不会用Github的同学请自行百度
-2. 上传至你的theme目录
-3. 修改需要修改的文件，比如LOGO什么的，具体在function.php里有说明
-4. 调试、兼容
+>1. 首先安装框架：[Hybird框架](http://wordpress.org/themes/hybrid) 上传到theme即可
+2. 到Github下载本主题最新版，不会用Github的同学请自行百度
+3. 上传至你的theme目录
+4. 修改需要修改的文件，比如LOGO什么的，具体在function.php里有说明
+5. 调试、兼容
 
 <h3>To do list</h3>
 IE的兼容完全没有看，主要是在Webkit内核的浏览器上，因为我博客访问大多是webkit内核的浏览器，所以也没有管兼容问题。准备再增加个提示功能，当IE进来的时候提示用户切换到极速内核或者下载现代浏览器。毕竟是个人爱好的博客，也懒得管兼容这种事情了。
