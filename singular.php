@@ -80,5 +80,14 @@ get_header(); // Loads the header.php template. ?>
 		<?php do_atomic( 'after_content' ); // hybrid_after_content ?>
 
 	</div><!-- .content .hfeed -->
+	<script>
+		jQuery(function($){
+			$('.entry-content p').each(function(){
+				if($(this).find('img').length){
+					$(this).css('text-indent','0');
+				}
+			});
+		});
+	</script>
 
 <?php get_footer(); // Loads the footer.php template. ?>

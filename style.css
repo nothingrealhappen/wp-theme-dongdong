@@ -441,6 +441,9 @@ a:active {
 #container .dd_post_content .dd_post .entry-content blockquote p {
   text-indent: 0;
 }
+#container .dd_post_content .dd_post .entry-content ol li {
+  list-style: initial;
+}
 #container #primary {
   width: 30%;
   margin-right: 5%;
